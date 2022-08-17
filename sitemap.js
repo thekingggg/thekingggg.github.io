@@ -13,7 +13,7 @@
 
 // global variables
    var sortBy = "datenewest";         // default value for sorting ToC
-   var tocLoaded = false;           // true if feed is read and ToC can be displayed
+   var tocLoaded = true;           // true if feed is read and ToC can be displayed
    var numChars = 250;              // number of characters in post summary
    var postFilter = '';             // default filter value
    var tocdiv = document.getElementById("bp_toc"); //the toc container
